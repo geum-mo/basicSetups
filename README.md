@@ -1,2 +1,2 @@
-# basicSetups
- index.html; index.css w reset.css; index.js; 
+# JS_learning-2
+ 

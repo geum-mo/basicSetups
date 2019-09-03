@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <h1>What do you want to build today?</h1>
-    <script src="scripts/index.js"></script>
+    <div class="clock">
+      <h1 class="clock__js-clock js-clock">00:00:00</h1>
+    </div>
+    <form class="greetings">
+      <input
+        type="text"
+        class="greetings__js-greetings js-greetings"
+        placeholder="What is your name?"
+      />
+    </form>
+    <form class="toDoForm">
+      <input
+        type="text"
+        class="toDoForm__js-toDoForm js-toDoForm"
+        placeholder="What do you do today?"
+      />
+    </form>
+    <script src="scripts/clock.js"></script>
   </body>
 </html>
